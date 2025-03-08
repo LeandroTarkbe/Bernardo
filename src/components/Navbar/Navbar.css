@@ -1,0 +1,31 @@
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6rem;
+    width: 100%;
+    background-color: slategray;
+}
+
+.nav-bar-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    border: black 1px;
+}
+
+.logo img {
+    height: 4rem;
+    width: auto;
+  }
+
+.logo {
+    display: block;
+    align-items: flex-start;
+    margin-right: auto;
+    width: 20%;
+}
+
