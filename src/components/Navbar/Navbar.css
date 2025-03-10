@@ -5,6 +5,7 @@
     height: 6rem;
     width: 100%;
     background-color: slategray;
+    float: right;
 }
 
 .nav-bar-items {
@@ -20,6 +21,7 @@
 .logo img {
     height: 4rem;
     width: auto;
+    float: left;
   }
 
 .logo {
@@ -29,3 +31,8 @@
     width: 20%;
 }
 
+.carrito img {
+    height: 3rem;
+    display: block;
+    align-items: end;
+}

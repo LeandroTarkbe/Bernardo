@@ -1,0 +1,34 @@
+.item-list-container {
+    padding: 20px;
+  }
+  
+  .item-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .item {
+    border: 1px solid #605e5e;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }

@@ -13,6 +13,9 @@ function Navbar() {
                 <li>Contacto</li>
             </ul>
         </nav>
+        <div className='carrito'>
+            <img src="./public/CartLogo.png" alt="Logo Carrito" />
+        </div>
     </header>
   )
 }
