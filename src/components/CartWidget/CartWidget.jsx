@@ -1,8 +1,13 @@
 import './CartWidget.css'
-import React from 'react'
+import { FaCartShopping } from "react-icons/fa6"
 
-export const  CartWidget = () => {
-    <i className="bi bi-cart"></i>
+function CartWidget({ cantidad }) {
+    return (
+    <>
+      <FaCartShopping color="black" />
+      <p>{cantidad}</p>
+    </> 
+    )
 }
 
 export default CartWidget
